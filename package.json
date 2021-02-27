@@ -1,11 +1,21 @@
 {
   "name": "asynchronism",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Working with asynchronism",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "callback": "node src/callback/index.js",
+    "api:callback": "node src/callback/challenge.js",
+    "promise": "node src/promise/index.js"
   },
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "callback",
+    "promise",
+    "async"
+  ],
+  "author": "Jose Padron",
+  "license": "MIT",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }
